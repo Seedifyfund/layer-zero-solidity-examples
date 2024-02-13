@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 
 import "./IONFT721Core.sol";
 import "../../lzApp/NonblockingLzApp.sol";
-import "@openzeppelin/contracts/utils/introspection/ERC165.sol";
+import "openzeppelin-contracts/utils/introspection/ERC165.sol";
 
 abstract contract ONFT721Core is NonblockingLzApp, ERC165, IONFT721Core {
     uint16 public constant FUNCTION_TYPE_SEND = 1;

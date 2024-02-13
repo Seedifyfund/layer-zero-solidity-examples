@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 
 import "./OFTCoreV2.sol";
 import "./IOFTV2.sol";
-import "@openzeppelin/contracts/utils/introspection/ERC165.sol";
+import "openzeppelin-contracts/utils/introspection/ERC165.sol";
 
 abstract contract BaseOFTV2 is OFTCoreV2, ERC165, IOFTV2 {
 

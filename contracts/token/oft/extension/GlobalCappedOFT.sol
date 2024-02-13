@@ -3,7 +3,7 @@
 pragma solidity ^0.8.0;
 
 import "./BasedOFT.sol";
-import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Capped.sol";
+import "openzeppelin-contracts/token/ERC20/extensions/ERC20Capped.sol";
 
 /**
  * @dev Extension of {OFT} that adds a global cap to the supply of tokens across all chains.

@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
+import "openzeppelin-contracts/token/ERC20/IERC20.sol";
+import "openzeppelin-contracts/token/ERC20/utils/SafeERC20.sol";
 import "../token/oft/v2/IOFTV2.sol";
 import "../token/oft/v2/IOFTReceiverV2.sol";
 import "../util/BytesLib.sol";

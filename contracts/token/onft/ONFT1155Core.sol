@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 
 import "./IONFT1155Core.sol";
 import "../../lzApp/NonblockingLzApp.sol";
-import "@openzeppelin/contracts/utils/introspection/ERC165.sol";
+import "openzeppelin-contracts/utils/introspection/ERC165.sol";
 
 abstract contract ONFT1155Core is NonblockingLzApp, ERC165, IONFT1155Core {
     uint public constant NO_EXTRA_GAS = 0;

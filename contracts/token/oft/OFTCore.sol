@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 
 import "../../lzApp/NonblockingLzApp.sol";
 import "./IOFTCore.sol";
-import "@openzeppelin/contracts/utils/introspection/ERC165.sol";
+import "openzeppelin-contracts/utils/introspection/ERC165.sol";
 
 abstract contract OFTCore is NonblockingLzApp, ERC165, IOFTCore {
     using BytesLib for bytes;

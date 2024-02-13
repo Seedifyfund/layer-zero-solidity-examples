@@ -3,8 +3,8 @@
 pragma solidity 0.8.4;
 pragma abicoder v2;
 
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
-import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
+import "openzeppelin-contracts/security/ReentrancyGuard.sol";
+import "openzeppelin-contracts/token/ERC20/utils/SafeERC20.sol";
 import "../interfaces/IStargateRouter.sol";
 import "../interfaces/IStargateRouterETH.sol";
 import "../interfaces/IStargateFactory.sol";
